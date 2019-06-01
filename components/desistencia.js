@@ -1,10 +1,11 @@
 import {Component} from "react";
+import "../css/index.css";
 
 class Desistencia extends Component {
     render (){
         return (
             <div>
-                <h1>Desistencia</h1>
+                <button class="btn">Desitência</button>
             </div>
         );
     }
