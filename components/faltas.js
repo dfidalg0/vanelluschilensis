@@ -4,7 +4,7 @@ class Faltas extends Component {
     render (){
         return (
             <div>
-                <button class="btn">Faltas</button>
+                <button type="button" class="btn btn-success">Faltas</button>
             </div>
         );
     }

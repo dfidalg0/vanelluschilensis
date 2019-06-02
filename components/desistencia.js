@@ -5,7 +5,7 @@ class Desistencia extends Component {
     render (){
         return (
             <div>
-                <button class="btn">Desitência</button>
+                <button type="button" class="btn btn-success">Desistência</button>
             </div>
         );
     }
