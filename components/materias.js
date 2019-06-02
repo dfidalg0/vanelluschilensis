@@ -4,7 +4,7 @@ class Materias extends Component {
     render (){
         return (
             <div>
-                <h1>Materias</h1>
+                <h1>Matérias</h1>
             </div>
         );
     }
