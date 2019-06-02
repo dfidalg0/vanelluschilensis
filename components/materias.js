@@ -18,11 +18,12 @@ class Materias extends Component {
     render (){
         return (
         	<div>
-	            <button onClick={this.abre}><h1>Matérias</h1></button>
+	            <button  type="button" class="btn btn-success" onClick={this.abre}>Matérias</button>
 	            <div id="subjects">
-	            	<li> Matemática </li>
-	            	<li> Física </li>
-	            	<li> Química </li>
+
+	            	<li><button type="button" class="btn btn-success">Matemática</button></li>
+	            	<li><button type="button" class="btn btn-success">Física</button></li>
+	            	<li><button type="button" class="btn btn-success">Química</button></li>
 	            </div>
 	        </div>
         );
